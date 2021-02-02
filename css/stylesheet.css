@@ -1,0 +1,349 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 60, 60);
+}
+
+.button-1 {
+    background-color: rgb(61, 60, 60);
+    border: none;
+}
+
+.main-log {
+    display: flex;
+}
+
+.log-1 {
+    clip-path: polygon(0% 0%, 76% 0, 100% 50%, 76% 100%, 0% 100%);
+    width: 50%;
+    height: auto;
+    bottom: -10px;
+    top: -10px;
+    background-color: #f5852e;
+    position: absolute;
+}
+
+.log-1 h1 {
+    margin: 150px 0px 0px 40px;
+}
+
+.log-2 {
+    width: 50%;
+    text-align: center;
+    color: #f5852e;
+    padding: 60px 40px;
+}
+
+.nav-color {
+    background-color: #f5852e;
+}
+
+.form-group input {
+    border: none;
+    border-bottom: 2px solid #f5852e;
+    border-radius: 0px;
+}
+
+.log-button {
+    background-color: #f5852e;
+    color: #ffffff;
+}
+
+form a {
+    color: #f5852e;
+}
+
+::placeholder {
+    color: #f5852e !important;
+}
+
+.dropdown-container {
+    height: 250px;
+    width: 500px;
+    border: 1px solid #f5852e;
+    padding: 20px 5px;
+}
+
+.dropdown-pic {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.dropdown-pic img {
+    height: 70px;
+}
+
+.dropdown-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-span {
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+}
+
+.main {
+    width: 100%;
+    background-size: 450px 450px;
+    background-image: url("../images/main_panel_img.png");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    height: 600px;
+}
+
+.content {
+    margin-left: 30px;
+    padding-top: 170px;
+}
+
+.content h1 {
+    color: #fd7e14;
+    padding-top: 10px;
+}
+
+.main-anchor a {
+    color: black;
+    text-decoration: none;
+}
+
+.content p {
+    padding: 15px 0px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.inner img {
+    margin-right: 8px;
+    height: 40px;
+}
+
+.notification-scroll {
+    overflow-y: scroll;
+    height: 300px;
+    border: 1px solid #f5852e;
+}
+
+.notification-dropdown {
+    display: flex;
+    padding: 10px;
+}
+
+.notification-dropdown img {
+    width: 70px;
+    height: 70px;
+}
+
+.dropdown-content {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.dropdown-content span {
+    font-size: 0.9rem;
+}
+
+.dropdown-content p {
+    font-size: 0.6rem;
+    margin-bottom: 5px;
+}
+
+.notification {
+    background-image: url("../images/notification.png");
+    background-color: #f5852e;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid white;
+}
+
+.chat {
+    background-image: url("../images/chat.png");
+    background-color: #f5852e;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid white;
+}
+
+.plus {
+    background-image: url("../images/plus.png");
+    background-color: #f5852e;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid white;
+}
+
+.search {
+    background-image: url("../images/search.png");
+    background-color: #f5852e;
+    border-radius: 100%;
+    background-size: 20px 20px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid white;
+}
+
+.right-nav {
+    margin-left: auto;
+}
+
+.main-panel-search-input {
+    margin: 5px 30px;
+    display: flex;
+    width: 35%;
+}
+
+.main-panel-search {
+    background-image: url("../images/search.png");
+    background-color: #f5852e;
+    background-size: 20px 20px;
+    width: 50px;
+    height: 38px;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-main {
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 2px 6px 15px 0 rgb(54, 54, 54);
+}
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-pic img {
+    width: 100%;
+}
+
+.card-content {
+    color: #fd7e14;
+    padding: 5px 10px;
+}
+
+.card-content button {
+    background-color: #fd7e14;
+    padding: 0px 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.card-see-btn {
+    color: #fd7e14;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgb(54, 54, 54);
+}
+
+.category-main {
+    width: 45%;
+}
+
+.footer {
+    padding: 30px 0px 50px 20px;
+}
+
+.abd a {
+    color: #df0909;
+}
+
+@media (max-width: 769px) {
+    .content p {
+        margin-bottom: 400px;
+        padding: 0px 20px;
+    }
+    .content {
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    .content h1 {
+        font-size: 25px;
+        padding: 0px 20px;
+    }
+    .main {
+        background-size: 320px 300px;
+        background-position: center;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+    .inner {
+        margin-top: 10px;
+    }
+    .top-span {
+        font-size: 0.8rem;
+    }
+    .main-panel-search-input {
+        margin: 5px 30px;
+        display: flex;
+        width: 90%;
+    }
+    .card-container {
+        justify-content: center;
+        align-items: center;
+    }
+    .category-main {
+        width: 55%;
+    }
+    /*IF IT LIKED BY HUSNAIN BHAI
+    .card-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-pic img {
+        height: 200px;
+    }*/
+}
+
+@media(max-width: 992px) {
+    .main {
+        background-size: 320px 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .card-content {
+        padding: 5px 5px;
+        font-size: 0.6rem;
+    }
+    .card-flex {
+        padding: 0px;
+    }
+    .card-main {
+        box-shadow: 2px 4px 8px 0 rgb(54, 54, 54);
+    }
+    .card-content button {
+        padding: 0px 5px;
+        font-size: 0.7rem;
+    }
+    .category-main {
+        width: 70%;
+    }
+}
