@@ -267,6 +267,7 @@ form a {
 
 .abd a {
     color: #df0909;
+    font-size: 16px;
 }
 
 @media (max-width: 769px) {
